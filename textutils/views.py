@@ -45,6 +45,6 @@ def analyze(request):
                 analyzed = analyzed + char
         params = {'purpose': 'Change To Uppercase', 'analyzed_text': analyzed}
         djtext=analyzed
-        # return render(request, 'analyze.html', params)
+
 
     return render(request, 'analyze.html', params)
